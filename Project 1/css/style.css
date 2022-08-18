@@ -10,6 +10,10 @@
     border: 10px solid #1d1e4c;
 }
 
+.html {
+    font-size: 62.5%;
+}
+
 .content {
     max-width: 900px;
     margin: 0 auto;
@@ -18,19 +22,19 @@
 .top-section {
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
+    margin-top: 7rem;
     align-items: flex-end;
 }
 
 .top-section h1 {
-    font-size: 50px;
+    font-size: 2rem;
     font-weight: bold;
     color: #1d1e4c;
     text-transform: uppercase;
 }
 
 .top-section h4 {
-    font-size: 30px;
+    font-size: 2rem;
     text-align: end;
 }
 
@@ -45,42 +49,98 @@ img {
 }
 
 .second_section {
-    margin-top: 70px;
+    margin-top: 5rem;
 }
 
 .second_section h2 {
-    font-size: 50px;
-    margin-bottom: 20px;
+    font-size: 3rem;
+    margin-bottom: 1rem;
     font-weight: 400;
 }
 
 .second_section p {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 1rem;
+    line-height: 2rem;
     letter-spacing: 0.1px;
     text-align: justify;
 }
 
 .biography_section {
-    margin-top: 30px;
+    margin-top: 2rem;
 }
 
 .biography_section h3 {
-    margin-bottom: 30px;
-    font-size: 30px;
+    margin-bottom: 2rem;
+    font-size: 2rem;
 }
 
 .biography_section ul {
-    margin-left: 70px;
+    margin-left: 3rem;
 }
 
 .biography_section ul li {
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
 }
 
 .last_section p {
     display: flex;
     justify-content: end;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+@media (max-width: 432px) {
+    .html {
+        font-size: 40%;
+    }
+
+    .top-section {
+
+        display: grid;
+        justify-content: center;
+        margin-top: 100px;
+        align-items: center;
+    }
+
+    .image_container img {
+        width: 318px;
+        border-radius: 20px;
+    }
+
+    .top-section .apj {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+
+}
+
+@media (max-width: 720px) {
+    .html {
+        font-size: 40%;
+    }
+
+    .top-section {
+
+        display: grid;
+        justify-content: center;
+        margin-top: 100px;
+        align-items: center;
+    }
+
+    .image_container img {
+        width: 318px;
+        border-radius: 20px;
+    }
+
+    .top-section .apj {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
