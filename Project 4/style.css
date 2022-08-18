@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.8em;
+}
+
+.pimg {
+    background-image: url(image/image1.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.ptext {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+}
+
+.dtext {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+}
+
+.Vishal {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.developer {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.wsection {
+    background-color: #232323;
+    color: white;
+    height: auto;
+    padding: 80px;
+    text-align: center;
+
+}
+
+.work {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.you {
+    font-size: 80px;
+}
+
+.super_card {
+    /* display: grid;
+    grid-template-columns: repeat(320px, 1fr); */
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.card {
+    margin: 40px;
+    max-width: 400px;
+    height: 590px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(1, 1, 1, 0.2);
+}
+
+.image_container img {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.card_content {
+    padding: 10px;
+    text-align: center;
+}
+
+.card_content h3 {
+    padding: 6px;
+    text-transform: uppercase;
+
+}
+
+.card_content p {
+    padding: 10px;
+    text-align: justify;
+}
+
+.both {
+    display: flex;
+}
+
+.contact {
+    background-color: cyan;
+    color: black;
+    padding: 60px;
+}
+
+.contact p {
+    padding-top: 20px;
+}
+
+.contact h2 {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.aboutme h2 {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.aboutme {
+    background-color: crimson;
+    color: white;
+    padding: 60px;
+}
+
+.aboutme p {
+    padding-top: 20px;
+}
+
+.project {
+    background-color: #232323;
+    color: white;
+    text-align: center;
+    height: 150px;
+    padding: 60px;
+    font-size: 47px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+
+}
+
+.applybox {
+    max-width: 600px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 50px;
+
+}
+
+.web {
+    font-size: 20px;
+}
+
+.form_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.formcontrol {
+    display: grid;
+    flex-direction: column;
+}
+
+label {
+    font-size: 15px;
+}
+
+input,
+select,
+textarea {
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.textarea_control {
+    grid-column: 1/ span 2;
+}
+
+.textarea_control textarea {
+    width: 100%;
+}
+
+.button_container {
+    display: flex;
+    justify-content: end;
+}
+
+.button_container button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 20px;
+}

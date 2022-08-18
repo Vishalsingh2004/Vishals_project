@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    margin-top: 5px;
+}
+
+.container img {
+    width: 150px;
+    height: auto;
+}
+
+.search_nav {
+    display: flex;
+
+}
+
+.search {
+    display: flex;
+}
+
+.search input {
+    padding: 10px;
+    min-width: 600px;
+    border: 0.5px solid #ccc;
+}
+
+.search .search_btn {
+    padding: 10px;
+    border: none;
+
+}
+
+.search_btn img {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.mic_btn {
+    margin-left: 30px;
+    padding: 13px;
+    border: none;
+    border-radius: 100px;
+}
+
+.mic_btn img {
+    width: 30px;
+}
+
+.icon_main {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 100px;
+    align-items: center;
+}
+
+.tags {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: flex-start;
+    gap: 25px;
+    border-top: 1px solid #ccc;
+}
+
+.tag_dark {
+    display: flex;
+    border: 2px solid grey;
+    padding: 5px 15px;
+    border-radius: 20px;
+    align-items: center;
+    background-color: black;
+    color: white;
+
+}
+
+.tag_light {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(237, 237, 237);
+    border: 2px solid grey;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.great_container {
+    display: flex;
+}
+
+aside {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.side_icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.side_icons img {
+    size: 30px;
+}
+
+.side_icons p {
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+.bars {
+    margin-top: 20px;
+}
+
+.main_header {
+    width: 100%;
+}
+
+main {
+    background-color: #ccc;
+    min-height: 100vh;
+}
+
+.card_main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.card {
+    padding: 10px;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+.allcontainer {
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+}
+
+.tcontent {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.tcontent h2 {
+    font-size: 20px;
+}
+
+.tcontent .parabold {
+    font-weight: bold;
+}
+
+.paracontent {
+    display: flex;
+    gap: 15px;
+}

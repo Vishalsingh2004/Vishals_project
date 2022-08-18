@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1 {
+    background-image: url(image/images.jpg);
+    min-height: 100%;
+}
+
+.pimg2 {
+    background-image: url(image/images2.jpg);
+    min-height: 400px;
+}
+
+.pimg3 {
+    background-image: url(image/images4.jpg);
+    min-height: 600px;
+}
+
+.pimg2,
+.pimg3,
+.pimg4,
+.pimg1 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ptext {
+    text-align: center;
+    top: 50%;
+    position: absolute;
+    width: 100%;
+    color: white;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
+
+.pbackground,
+.dbackground {
+    background-color: #404040;
+    padding: 15px;
+    padding-left: 25px;
+}
+
+.section,
+.sectiontwo,
+.sectionthree {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.section p {
+    padding-top: 20px;
+}
+
+.section-lite {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.etext {
+    text-align: center;
+    top: 50%;
+    position: absolute;
+    width: 100%;
+    color: white;
+    font-size: 47px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.sectiontwo p {
+    padding-top: 20px;
+}
+
+.section-litetwo {
+    background-color: #404040;
+    color: #ffff;
+}
+
+h3 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.sectionthree p {
+    padding-top: 20px;
+}
+
+.section-litethree {
+    background-color: #404040;
+    color: #ffff;
+}
+
+.ltext {
+    text-align: center;
+    top: 60%;
+    position: absolute;
+    width: 100%;
+    color: white;
+    font-size: 57px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
+
+.pimg4 {
+    background-image: url(image/images5.jpg);
+    min-height: 100%;
+}
+
+.dtext {
+    text-align: center;
+    top: 50%;
+    position: absolute;
+    width: 100%;
+    color: white;
+    font-size: 37px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
