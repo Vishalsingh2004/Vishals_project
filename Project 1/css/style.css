@@ -103,7 +103,7 @@ img {
     }
 
     .image_container img {
-        width: 318px;
+        width: 345px;
     }
 
     .top-section .apj {
@@ -131,9 +131,10 @@ img {
         align-items: center;
     }
 
+
+
     .image_container img {
-        width: 318px;
-        border-radius: 20px;
+        width: 345px;
     }
 
     .top-section .apj {
