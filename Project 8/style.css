@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+}
+
+aside {
+    display: grid;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    height: 100vh;
+    position: sticky;
+}
+
+.heading {
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.heading h3 {
+    font-weight: 300;
+    margin-right: 100px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.list ul {
+    display: grid;
+
+}
+
+.list ul a {
+
+    text-decoration: none;
+    font-size: 17px;
+    padding: 7px;
+    color: black;
+    padding-left: 10px;
+    border-bottom: 1px solid grey;
+
+}
+
+.list ul a:hover {
+    transition: 0.3s;
+    background: #ccc;
+}
+
+section {
+    padding: 30px;
+}
+
+.introduction h2 {
+    border-bottom: 1px solid #ccc;
+    font-size: 20px;
+}
+
+.introduction p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.introduction ul li {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+code {
+    background-color: #f7f7f7;
+    white-space: pre-line;
+    line-height: 2;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+@media (max-width: 480px) {
+
+    body {
+        flex-direction: column;
+    }
+
+    aside {
+        height: 200px;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+
+}
